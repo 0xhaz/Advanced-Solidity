@@ -68,7 +68,7 @@ abstract contract Ownable is Context {
      * `onlyOwner` functions anymore. Can only be called by the current owner
      *
      * NOTE: Renouncing ownership will leave the contract without an owner,
-     * thereby removing any functionality that is only available to the owner.
+     * thereby removing any functionality that is only available to the owner
      */
     function renounceOwnership() public virtual onlyOwner {
         _transferOwnership(address(0));
